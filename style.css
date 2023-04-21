@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/elcarito-MHNjEBeLTgw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  /* font-family:  */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.child-container {
+  display: inline-block;
+  justify-content: center;
+  align-self: center;
+ 
+}
+
+#appSection {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(130deg, #00feba, #5b548a);
+  margin: auto;
+  padding: 4em;
+  border-radius: 15px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+#searchSection {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(130deg,#5b548a, #00feba);
+  margin: auto;
+  padding: 4em;
+  border-radius: 15px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.weatherIcon {
+  height: 15em;
+}
+
+#searchIcon {
+  height: 1em;
+  text-align: center;
+}
+
+#hiLow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#imgTempCity {
+  margin: 2em 0;
+}
+
+#thermoIcon {
+  height: 2em;
+}
+
+#lowTemp,
+#highTemp {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  color: rgb(58, 35, 126);
+  border-color: rgb(58, 35, 126);
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  height: 3em;
+  width: 3em;
+  margin:auto;
+  margin-top: 1em;
+  border-radius: 5px;
+  background-color: #485696;
+  background: none;
+}
+
+#mainTitle {
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
