@@ -33,7 +33,7 @@ body {
   text-align: center;
 }
 
-#searchSection {
+/* #searchSection {
   display: flex;
   flex-direction: column;
   background: linear-gradient(130deg,#5b548a, #00feba);
@@ -42,7 +42,7 @@ body {
   border-radius: 15px;
   opacity: 0.7;
   text-align: center;
-}
+} */
 
 .weatherIcon {
   height: 15em;

@@ -9,6 +9,7 @@ const currentTemp = document.getElementById("currentTemp");
 const tempLow = document.getElementById("tempLow");
 const tempHigh = document.getElementById("tempHigh");
 
+
 // DATE
 let dateObj = new Date();
 let month = dateObj.getMonth() + 1;
@@ -52,8 +53,8 @@ document.getElementById("searchButton").addEventListener("click", () => {
       cityName.innerHTML = cityNameAdd;
       currentConditions.innerHTML = currentConditionsAdd;
       currentTemp.innerHTML = currentTempAdd + "°F";
-      tempLow.innerHTML = tempLowAdd + "°F";
-      tempHigh.innerHTML = tempHighAdd + "°F";
+      tempLow.innerHTML = "Low: " + tempLowAdd + "°F";
+      tempHigh.innerHTML = "High: " + tempHighAdd + "°F";
 
       //WEATHER ICONS
       // const imageSrc = imageMap[currentConditionsAdd.toLowerCase()];
